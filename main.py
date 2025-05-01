@@ -3,7 +3,6 @@ import requests
 import os
 import logging
 
-last_loc_received = ""
 logging.basicConfig(
     level=os.getenv("LOG_LEVEL", "INFO"),
     format="%(asctime)s [%(levelname)s] 1#1: %(message)s",
