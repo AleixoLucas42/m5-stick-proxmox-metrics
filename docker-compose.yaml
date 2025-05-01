@@ -1,0 +1,11 @@
+services:
+  m5-stick-proxmox-metrics:
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+    container_name: m5-stick-proxmox-metrics
+    restart: always
+    image: aleixolucas/m5-stick-proxmox-metrics
+    cap_drop:
+      - ALL
