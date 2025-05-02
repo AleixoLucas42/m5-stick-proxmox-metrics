@@ -2,6 +2,7 @@
 This is an simple app to display CPU, Memory and root disk from Proxmox on m5 stick.
 
 ![m5-proxmox-metrics](.img/example.gif)
+
 Ps: I wasn't using the device, so I decided to give it a use.
 
 ## How it works?
