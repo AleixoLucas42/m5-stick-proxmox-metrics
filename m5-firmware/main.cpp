@@ -3,8 +3,8 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid     = "QUARK DOWN";
-const char* password = "Aleixo@123";
+const char* ssid     = "";
+const char* password = "";
 const char* url      = "http://m5-stick-proxmox-metrics.aleixohome.lan";
 
 // Função para desenhar uma barra com label e percentual
