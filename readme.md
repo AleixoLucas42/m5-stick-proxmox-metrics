@@ -1,5 +1,5 @@
 # M5 Stick With Proxmox Metrics
-This is an simple app to display CPU, Memory and root disk from Proxmox on m5 stick.
+This is an simple app to display CPU, Memory and root disk usage from Proxmox on m5 stick.
 
 ![m5-proxmox-metrics](.img/example.gif)
 
