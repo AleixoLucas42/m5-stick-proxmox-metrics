@@ -1,5 +1,5 @@
 # M5 Stick With Proxmox Metrics
-This is an simple app to monitor CPU, Memory and root disk from Proxmox.
+This is an simple app to display CPU, Memory and root disk from Proxmox on m5 stick.
 
 ![m5-proxmox-metrics](.img/example.gif)
 
@@ -9,9 +9,9 @@ Theres 2 apps to make this work, the [Python](main.py) one and [C++](m5-firmware
 
 ## How to setup?
 - First you need to start the python app, you can use the [docker compose](docker-compose.yaml) file. Do not forget to change the environment variables.
-  - If you know python and do not want to use docker, you can read the code and run the python file easily
+  - If you know python and do not want to use docker, you can read the code and run the python file easily.
 - Then you have to change Wi-Fi and python app url variables on [main.cpp](m5-firmware/main.cpp). This only works with http, do not not use https.
-- Now use your favorite tool to flash the c++ code on your m5 stick. I'm using arduino IDE and m5 stick plus 2.
+- Now use your favorite tool to burn the c++ code on your m5 stick. I'm using arduino IDE and m5 stick plus2.
 - Now should work (I hope so). The code is very simple so anyone can fix any problem 🙂.
 
 ## Enviroment variables (for [python](main.py) app)
