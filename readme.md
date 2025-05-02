@@ -11,7 +11,7 @@ Theres 2 apps to make this work, the [Python](main.py) one and [C++](m5-firmware
 ## How to setup?
 - First you need to start the python app, you can use the [docker compose](docker-compose.yaml) file. Do not forget to change the environment variables.
   - If you know python and do not want to use docker, you can read the code and run the python file easily.
-- Then you have to change Wi-Fi and python app url variables on [main.cpp](m5-firmware/main.cpp). This only works with http, do not not use https.
+- Then you have to change Wi-Fi and python app url variables on [main.cpp](m5-firmware/main.cpp). This works with http, for https, do not use self signed certificates.
 - Now use your favorite tool to burn the c++ code on your m5 stick. I'm using arduino IDE and m5 stick plus2.
 - Now should work (I hope so). The code is very simple so anyone can fix any problem 🙂.
 
