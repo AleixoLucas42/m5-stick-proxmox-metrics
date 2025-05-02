@@ -1,8 +1,8 @@
 # M5 Stick With Proxmox Metrics
-This is an simple app to display CPU, Memory and root disk from Proxmox on m5 stick. I wasn't using the device, so I decided to give it a use.
+This is an simple app to display CPU, Memory and root disk from Proxmox on m5 stick.
 
 ![m5-proxmox-metrics](.img/example.gif)
-
+Ps: I wasn't using the device, so I decided to give it a use.
 
 ## How it works?
 Theres 2 apps to make this work, the [Python](main.py) one and [C++](m5-firmware/main.cpp) one. The python app get the metrics from Proxmox api and the C++ get the results from python app and display on the screen.
